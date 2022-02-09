@@ -1,3 +1,6 @@
 @import url(https://sinister-ui.netlify.app/components/main.css);
 @import url(./homepage.css);
 @import url(./page/login/login.css);
+@import url(./page/products/products.css);
+@import url(./page/cart/cart.css);
+@import url(./page/wishlist/wishlist.css);

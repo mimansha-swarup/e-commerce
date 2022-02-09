@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products | Mystery Shacks</title>
+    
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+    <header class="navbar" >
+        <p class="navbar-brand">
+            <a href="../../index.html">Mystery Shacks</a>
+        </p>   
+        <div class="input-group">
+            <input type="search" name="search-box" id="search">  
+        </div>   
+        <nav>
+            <button class="btn btn-contained ">
+                <a href="#" class="btn btn-text " >Login</a>  
+            </button>
+            <a href="../wishlist/wishlist.html" class="btn btn-text teal badge-wrapper" >
+                <span class="material-icons">favorite</span>
+                <div class="badge top-right red" >0</div>
+            </a>  
+            <a href="../cart/cart.html" class="btn btn-text teal " >
+                <span class="badge-wrapper">
+                    <span class="material-icons">shopping_cart</span>
+                    <div class="badge top-right red" >0</div>
+                </span> &nbsp;
+                <span >Cart</span>
+            </a> 
+        </nav> 
+    </header>   
+    <main class="flex">
+        <div class="sidebar">
+            <div class="flex space-between">
+                <p class="subtitle1 bold ">Filters</p>
+                <p class="subtitle2 
+                light">Clear</p>
+            </div>
+            <hr class="line-horz">
+            <p class="hedline6  bold ">Price</p>
+            <input type="range" name="" id="price-range">
+
+            <hr class="line-horz">
+            <p class="hedline6  bold ">Category</p>
+            <div class="flex ">
+                <input type="checkbox" name="shooting" id="shooting">
+                <label for="shooting">shooting </label>
+            </div>
+            
+            <div class="flex ">
+                <input type="checkbox" name="adventure" id="adventure">
+                <label for="adventure">adventure </label>
+            </div>
+            <hr class="line-horz">
+            <p class="hedline6  bold ">Ratings</p>
+            <div class="flex ">
+                <input type="radio" name="5star" id="5star">
+                <label for="5star">5 stars and above </label>
+            </div>
+            <div class="flex ">
+                <input type="radio" name="4star" id="4star">
+                <label for="4star">4 stars and above </label>
+            </div>
+            <div class="flex ">
+                <input type="radio" name="3star" id="3star">
+                <label for="3star">3 stars and above </label>
+            </div>
+            <div class="flex ">
+                <input type="radio" name="2star" id="2star">
+                <label for="2star">2 stars and above </label>
+            </div>
+            <div class="flex ">
+                <input type="radio" name="1star" id="1star">
+                <label for="1star">1 stars and above </label>
+            </div>
+            <hr class="line-horz">
+            <p class="hedline6  bold ">Sort By</p>
+            <div class="flex ">
+                <input type="radio" name="low-high" id="low-high">
+                <label for="low-high">Price: Low to High </label>
+            </div>
+            <div class="flex ">
+                <input type="radio" name="high-low" id="high-low">
+                <label for="high-low">Price: High to Low </label>
+            </div>
+            
+        </div>
+        
+        <div class="product-list-container">
+            <p class="headline3 text-white-02 semi-bold">All Products</p>
+            <div class="product-list">
+
+                <div class="card card-horz  product-card">
+                    <div class="flex">
+                        <div class="media-cont">
+                            <img class="card-media" src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/5jka1phd3rneg7l4rpgx.png" alt="card-media">                        
+                        </div>
+                        
+                        <div class="card-body flex flex-column space-around">
+                            <div class="card-header">
+                                <p class="card-title subtitle1">Hot Wheel Unleashed</p>
+                                <p class="card-subtitle subtitle2 bold">Rs. 2000</p>
+                            </div>
+                            <div class="card-action flex-column">
+                                <button class="btn btn-contained teal"><a class="btn-link" href="../cart/cart.html">Go to Cart</a></button>
+                                <button class="btn btn-outline">Save to Wishlist</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card card-horz  product-card">
+                    <div class="flex">
+                        <div class="media-cont">
+                            <img class="card-media" src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/5jka1phd3rneg7l4rpgx.png" alt="card-media">                        
+                        </div>
+                        
+                        <div class="card-body flex flex-column space-around">
+                            <div class="card-header">
+                                <p class="card-title subtitle1">Hot Wheel Unleashed</p>
+                                <p class="card-subtitle subtitle2 bold">Rs. 2000</p>
+                            </div>
+                            <div class="card-action flex-column">
+                                <button class="btn btn-contained">Add to Cart</button>
+                                <button class="btn btn-outline">Save to Wishlist</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card card-horz  product-card">
+                    <div class="flex">
+                        <div class="media-cont">
+                            <img class="card-media" src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/5jka1phd3rneg7l4rpgx.png" alt="card-media">                        
+                        </div>
+                        
+                        <div class="card-body flex flex-column space-around">
+                            <div class="card-header">
+                                <p class="card-title subtitle1">Hot Wheel Unleashed</p>
+                                <p class="card-subtitle subtitle2 bold">Rs. 2000</p>
+                            </div>
+                            <div class="card-action flex-column">
+                                <button class="btn btn-contained">Add to Cart</button>
+                                <button class="btn btn-outline">Save to Wishlist</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card card-horz  product-card">
+                    <div class="flex">
+                        <div class="media-cont">
+                            <img class="card-media" src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/5jka1phd3rneg7l4rpgx.png" alt="card-media">                        
+                        </div>
+                        
+                        <div class="card-body flex flex-column space-around">
+                            <div class="card-header">
+                                <p class="card-title subtitle1">Hot Wheel Unleashed</p>
+                                <p class="card-subtitle subtitle2 bold">Rs. 2000</p>
+                            </div>
+                            <div class="card-action flex-column">
+                                <button class="btn btn-contained">Add to Cart</button>
+                                <button class="btn btn-outline">Save to Wishlist</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card card-horz  product-card">
+                    <div class="flex">
+                        <div class="media-cont">
+                            <img class="card-media" src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/5jka1phd3rneg7l4rpgx.png" alt="card-media">                        
+                        </div>
+                        
+                        <div class="card-body flex flex-column space-around">
+                            <div class="card-header">
+                                <p class="card-title subtitle1">Hot Wheel Unleashed</p>
+                                <p class="card-subtitle subtitle2 bold">Rs. 2000</p>
+                            </div>
+                            <div class="card-action flex-column">
+                                <button class="btn btn-contained">Add to Cart</button>
+                                <button class="btn btn-outline">Save to Wishlist</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card card-horz  product-card">
+                    <div class="flex">
+                        <div class="media-cont">
+                            <img class="card-media" src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/5jka1phd3rneg7l4rpgx.png" alt="card-media">                        
+                        </div>
+                        
+                        <div class="card-body flex flex-column space-around">
+                            <div class="card-header">
+                                <p class="card-title subtitle1">Hot Wheel Unleashed</p>
+                                <p class="card-subtitle subtitle2 bold">Rs. 2000</p>
+                            </div>
+                            <div class="card-action flex-column">
+                                <button class="btn btn-contained">Add to Cart</button>
+                                <button class="btn btn-outline">Save to Wishlist</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card card-horz  product-card">
+                    <div class="flex">
+                        <div class="media-cont">
+                            <img class="card-media" src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/5jka1phd3rneg7l4rpgx.png" alt="card-media">                        
+                        </div>
+                        
+                        <div class="card-body flex flex-column space-around">
+                            <div class="card-header">
+                                <p class="card-title subtitle1">Hot Wheel Unleashed</p>
+                                <p class="card-subtitle subtitle2 bold">Rs. 2000</p>
+                            </div>
+                            <div class="card-action flex-column">
+                                <button class="btn btn-contained">Add to Cart</button>
+                                <button class="btn btn-outline">Save to Wishlist</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card card-horz  product-card">
+                    <div class="flex">
+                        <div class="media-cont">
+                            <img class="card-media" src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/5jka1phd3rneg7l4rpgx.png" alt="card-media">                        
+                        </div>
+                        
+                        <div class="card-body flex flex-column space-around">
+                            <div class="card-header">
+                                <p class="card-title subtitle1">Hot Wheel Unleashed</p>
+                                <p class="card-subtitle subtitle2 bold">Rs. 2000</p>
+                            </div>
+                            <div class="card-action flex-column">
+                                <button class="btn btn-contained">Add to Cart</button>
+                                <button class="btn btn-outline">Save to Wishlist</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card card-horz  product-card">
+                    <div class="flex">
+                        <div class="media-cont">
+                            <img class="card-media" src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/5jka1phd3rneg7l4rpgx.png" alt="card-media">                        
+                        </div>
+                        
+                        <div class="card-body flex flex-column space-around">
+                            <div class="card-header">
+                                <p class="card-title subtitle1">Hot Wheel Unleashed</p>
+                                <p class="card-subtitle subtitle2 bold">Rs. 2000</p>
+                            </div>
+                            <div class="card-action flex-column">
+                                <button class="btn btn-contained">Add to Cart</button>
+                                <button class="btn btn-outline">Save to Wishlist</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card card-horz  product-card">
+                    <div class="flex">
+                        <div class="media-cont">
+                            <img class="card-media" src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/5jka1phd3rneg7l4rpgx.png" alt="card-media">                        
+                        </div>
+                        
+                        <div class="card-body flex flex-column space-around">
+                            <div class="card-header">
+                                <p class="card-title subtitle1">Hot Wheel Unleashed</p>
+                                <p class="card-subtitle subtitle2 bold">Rs. 2000</p>
+                            </div>
+                            <div class="card-action flex-column">
+                                <button class="btn btn-contained">Add to Cart</button>
+                                <button class="btn btn-outline">Save to Wishlist</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            
+        </div>
+        
+
+    </main>
+</body>
+</html>
