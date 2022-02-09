@@ -1,0 +1,18 @@
+.wishlist-card {
+    align-items: stretch;
+    min-width:22.5rem;
+    width: fit-content;
+    margin: 0  auto;
+    margin-bottom: 1rem;
+
+}
+.wishlist-card .card-media{
+    width:9rem;
+}
+.wishlist-card .card-action,
+.wishlist-card .card-body{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: stretch;
+}

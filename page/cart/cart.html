@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart | Mystery Shacks</title>
+    
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+    <header class="navbar" >
+        <p class="navbar-brand">
+            <a href="../../index.html">Mystery Shacks</a>
+        </p>   
+        <div class="input-group">
+            <input type="search" name="search-box" id="search">  
+        </div>   
+        <nav>
+            <button class="btn btn-contained ">
+                <a href="#" class="btn btn-text " >Login</a>  
+            </button>
+            <a href="../wishlist/wishlist.html" class="btn btn-text teal badge-wrapper" >
+                <span class="material-icons">favorite</span>
+                <div class="badge top-right red" >0</div>
+            </a>  
+            <a href="#" class="btn btn-text teal " >
+                <span class="badge-wrapper">
+                    <span class="material-icons">shopping_cart</span>
+                    <div class="badge top-right red" >0</div>
+                </span> &nbsp;
+                <span >Cart</span>
+            </a> 
+        </nav> 
+    </header>   
+    <main class="main-body">
+        <h2 class="headline2 text-white-02 text-center">Cart</h2>
+        <div class="flex center cart-container">
+            <div class="card card-horz product-card">
+                <div class="flex">
+                    <div class="media-cont">
+                        <img class="card-media" src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/5jka1phd3rneg7l4rpgx.png" alt="card-media">                        
+                    </div>
+                    
+                    <div class="card-body flex flex-column space-around">
+                        <div class="card-header">
+                            <p class="card-title subtitle1">Hot Wheel Unleashed</p>
+                            <p class="card-subtitle subtitle2 bold">Rs. 2000</p>
+                            <p class="body1 flex">
+                                Quantity
+                                <input min="0" placeholder="1" type="number" name="quantity" id="quantity">
+                            </p>
+                        </div>
+                        <div class="card-action flex-column">
+                            <button class="btn btn-contained red">Remove from Cart</button>
+                            <button class="btn btn-outline">Move to Wishlist</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card cart-card">
+                <h3 class="headline3 semibold text-center"> PRICE DETAILS</h2>
+                <hr class="line-horz">
+                <div class="flex space-between">
+                    <span class="subtitle1">Price</span>
+                    <span class="subtitle1">Rs 2000</span>
+                </div>
+                <div class="flex space-between">
+                    <span class="subtitle1">Discount</span>
+                    <span class="subtitle1">- Rs 500</span>
+                </div>
+                <div class="flex space-between">
+                    <span class="subtitle1">Delivery Charges</span>
+                    <span class="subtitle1">+ Rs 200</span>
+                </div>
+                <hr class="line-horz">
+                <div class="flex space-between">
+                    <span class="subtitle1 bold">Total Amount</span>
+                    <span class="subtitle1 bold">Rs 1700</span>
+                </div>
+                <hr class="line-horz">
+                <p class="body1">You will save Rs 300 onthis order</p>
+                <button class="text-on-button btn btn-contained ">Place Order</button>
+            </div>
+
+        </div>
+        
+           
+        
+
+    </main>
+</body>
+</html>
