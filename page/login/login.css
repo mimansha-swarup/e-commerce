@@ -1,0 +1,13 @@
+.authentication-body{
+    height: 80vh;
+}
+.authentication-container{
+    padding:2rem 2rem;
+    width :25rem
+}
+.authentication-container form .input-group{
+    margin:.5rem 0;
+}
+.material-icons{
+    vertical-align: middle;
+}

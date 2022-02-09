@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | Mystery Shacks</title>
+    
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+    <header class="navbar" >
+        <p class="navbar-brand">
+            <a href="../../index.html"  >Mystery Shacks</a>
+        </p>   
+        <div class="input-group">
+            <input type="search" name="search-box" id="search">  
+        </div>   
+        <nav>
+            <button class="btn btn-contained ">
+                <a href="#" class="btn btn-text " >Login</a>  
+            </button>
+            <a href="#" class="btn btn-text teal badge-wrapper" >
+                <span class="material-icons">favorite</span>
+                <div class="badge top-right red" >0</div>
+            </a>  
+            <a href="#" class="btn btn-text teal " >
+                <span class="badge-wrapper">
+                    <span class="material-icons">shopping_cart</span>
+                    <div class="badge top-right red" >0</div>
+                </span> &nbsp;
+                <span >Cart</span>
+            </a> 
+        </nav> 
+    </header>   
+    <main class="authentication-body flex center">
+        
+        <div class="authentication-container card">
+            <h3 class="headline3 bold text-center">Login</h3>
+            <form action="POST" class="form-group">
+                <div class="input-group">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="neog@neog.com">
+                </div>
+                <div class="input-group">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password" placeholder="*******">
+                </div>
+                <div class="input-group flex space-between">
+                    <span class="flex ">
+                        <input type="checkbox" name="remember" id="remember">
+                        <label for="remember">Remember Me</label>
+                    </span>
+                    <a href="#" class="btn btn-text" >Forgot Your Password?</a>
+                </div>
+
+                <button type="submit" class="btn btn-contained">LOGIN</button>                
+                <p class="subtitle1 text-center">Create New Account <a href="../signup/signup.html" class="btn btn-text subtitle2" ><span class="material-icons ">
+                    arrow_forward_ios
+                    </span></a></p>
+            </form>
+        </div>
+        
+
+    </main>
+</body>
+</html>

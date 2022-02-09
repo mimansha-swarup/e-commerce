@@ -1,0 +1,47 @@
+:root{
+    --overlay-color-00: rgba(40, 41, 61,0.7);
+    --overlay-color-01: rgba(40, 41, 61,0.5);
+}
+.navbar .badge-wrapper {
+    align-items: center;
+    display: inline-flex;
+    vertical-align: middle;
+}
+header.navbar {
+    padding-left:  10.3125rem ;
+    padding-right:  10.3125rem ;
+}
+body{
+    background-color: var(--color-black-04);
+}
+.main-body{
+    padding: 0  10.3125rem ;
+    margin-bottom: 3rem;
+
+}
+
+.category-card{
+    flex-wrap: wrap; /* I am using flex class from comp lib thaths why using this property*/
+    margin: 2rem 0;
+}
+.category-card img{
+    width: 13.5rem;
+}
+.overlay-wrapper{
+    position: relative;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: var(--overlay-color-00);
+    z-index: var(--z-index-1);
+    border-radius: .125rem;
+    color: var(--color-white-02);
+    font-weight: 500;
+}
+.hero{
+    margin: 2rem 0; 
+}
