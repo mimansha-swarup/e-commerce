@@ -1,0 +1,14 @@
+#quantity{
+    width: 2rem;
+}
+.cart-card{
+    margin-left: 2rem;
+    padding: 1rem 1.5rem;
+    color: var(--color-white-02);
+}
+.cart-card .line-horz{
+    margin: .2rem 0;
+}
+.cart-container{
+    align-items: flex-start;
+}
