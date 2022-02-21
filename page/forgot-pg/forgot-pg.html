@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp | Mystery Shacks</title>
+    
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+    <header class="navbar" >
+        <p class="navbar-brand">
+            <a href="../../index.html"  >Mystery Shacks</a>
+        </p>   
+        <div class="input-group">
+            <input type="search" name="search-box" id="search">  
+        </div>   
+        <nav>
+            <button class="btn btn-contained ">
+                <a href="#" >Login</a>  
+            </button>
+            <a href="../wishlist/wishlist.html" class="btn btn-text teal badge-wrapper" >
+                <span class="material-icons">favorite</span>
+                <div class="badge top-right red" >0</div>
+            </a>  
+            <a href="../cart/cart.html" class="btn btn-text teal " >
+                <span class="badge-wrapper">
+                    <span class="material-icons">shopping_cart</span>
+                    <div class="badge top-right red" >0</div>
+                </span> &nbsp;
+                <span >Cart</span>
+            </a> 
+        </nav> 
+    </header>   
+    <main class="authentication-body flex center">
+        
+        <div class="authentication-container card">
+            <h3 class="headline3 bold text-center">Reset Password</h3>
+            <form action="POST" class="form-group">
+                <div class="input-group mb-3">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="neog@neog.com">
+                </div>
+                
+
+                <button type="submit" class="btn btn-contained">Reset Password</button>                
+
+                <p class="subtitle1 text-center"><a href="../login/login.html" class="btn btn-text subtitle2" >Already have account <span class="material-icons ">
+                    arrow_forward_ios
+                    </span></a></p>
+            </form>
+        </div>
+        
+
+    </main>
+</body>
+</html>
